@@ -6,7 +6,7 @@ const outputDir = path.join(__dirname, '..', 'dist');
 
 const SITE_NAME = 'ToolCompare.fyi';
 const SITE_DESC = 'Honest comparisons of the best tools for freelancers and small teams';
-const SITE_URL = 'https://toolcompare.fyi';
+const SITE_URL = 'https://erikirby.github.io/toolcompare-fyi';
 
 function slugify(text) {
   return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
