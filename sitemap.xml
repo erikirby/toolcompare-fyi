@@ -3,6 +3,7 @@
   <url><loc>https://toolcompare.fyi/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
   <url><loc>https://toolcompare.fyi/category/ai-coding</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/category/ai-notes</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/category/analytics</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/category/async</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/category/automation</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/category/backend</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -15,7 +16,10 @@
   <url><loc>https://toolcompare.fyi/category/deployment</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/category/design</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/category/development</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/category/email-marketing</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/category/file-sharing</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/category/fintech</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/category/forms</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/category/graphic-design</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/category/hosting</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/category/ide</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -80,6 +84,21 @@
   <url><loc>https://toolcompare.fyi/tool/arc-browser</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/tool/tana</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/tool/readwise</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/tool/webflow</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/tool/framer</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/tool/convertkit</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/tool/beehiiv</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/tool/posthog</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/tool/plausible</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/tool/tally</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/tool/typeform</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/tool/bitwarden</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/tool/1password</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/tool/da-vinci-resolve</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/tool/dropbox</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/tool/cleanshot</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/tool/capcut</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/tool/fathom</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/notion-vs-linear</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/notion-vs-asana</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/notion-vs-obsidian</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -107,6 +126,12 @@
   <url><loc>https://toolcompare.fyi/compare/todoist-vs-raycast</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/todoist-vs-arc-browser</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/todoist-vs-readwise</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/todoist-vs-tally</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/todoist-vs-typeform</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/todoist-vs-bitwarden</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/todoist-vs-1password</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/todoist-vs-dropbox</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/todoist-vs-cleanshot</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/toggl-track-vs-harvest</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/toggl-track-vs-clickup</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/toggl-track-vs-calendly</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -115,6 +140,12 @@
   <url><loc>https://toolcompare.fyi/compare/toggl-track-vs-raycast</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/toggl-track-vs-arc-browser</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/toggl-track-vs-readwise</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/toggl-track-vs-tally</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/toggl-track-vs-typeform</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/toggl-track-vs-bitwarden</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/toggl-track-vs-1password</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/toggl-track-vs-dropbox</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/toggl-track-vs-cleanshot</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/slack-vs-discord</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/slack-vs-circuit</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/slack-vs-lark</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -132,23 +163,50 @@
   <url><loc>https://toolcompare.fyi/compare/clickup-vs-raycast</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/clickup-vs-arc-browser</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/clickup-vs-readwise</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/clickup-vs-tally</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/clickup-vs-typeform</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/clickup-vs-bitwarden</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/clickup-vs-1password</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/clickup-vs-dropbox</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/clickup-vs-cleanshot</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/github-copilot-vs-cursor</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/github-copilot-vs-supabase</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/github-copilot-vs-vercel</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/github-copilot-vs-bubble</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/github-copilot-vs-posthog</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/cursor-vs-supabase</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/cursor-vs-vercel</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/cursor-vs-bubble</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/cursor-vs-posthog</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/figma-vs-canva</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/figma-vs-webflow</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/figma-vs-framer</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/canva-vs-webflow</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/canva-vs-framer</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/calendly-vs-lark</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/calendly-vs-fireflies</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/calendly-vs-raycast</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/calendly-vs-arc-browser</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/calendly-vs-readwise</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/calendly-vs-tally</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/calendly-vs-typeform</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/calendly-vs-bitwarden</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/calendly-vs-1password</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/calendly-vs-dropbox</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/calendly-vs-cleanshot</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/typefully-vs-screen-studio</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/typefully-vs-convertkit</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/typefully-vs-beehiiv</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/typefully-vs-da-vinci-resolve</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/typefully-vs-capcut</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/devto-vs-beehiiv</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/supabase-vs-vercel</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/supabase-vs-bubble</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/supabase-vs-posthog</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/vercel-vs-bubble</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/vercel-vs-webflow</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/vercel-vs-framer</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/vercel-vs-posthog</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/circuit-vs-lark</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/circuit-vs-loom</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/height-vs-monday</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -157,13 +215,83 @@
   <url><loc>https://toolcompare.fyi/compare/lark-vs-raycast</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/lark-vs-arc-browser</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/lark-vs-readwise</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/lark-vs-tally</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/lark-vs-typeform</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/lark-vs-bitwarden</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/lark-vs-1password</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/lark-vs-dropbox</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/lark-vs-cleanshot</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/loom-vs-screen-studio</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/loom-vs-da-vinci-resolve</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/loom-vs-capcut</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/bubble-vs-webflow</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/bubble-vs-framer</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/bubble-vs-posthog</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/make-vs-n8n</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/n8n-vs-posthog</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/n8n-vs-plausible</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/n8n-vs-bitwarden</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/fireflies-vs-raycast</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/fireflies-vs-arc-browser</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/fireflies-vs-readwise</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/fireflies-vs-tally</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/fireflies-vs-typeform</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/fireflies-vs-bitwarden</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/fireflies-vs-1password</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/fireflies-vs-dropbox</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/fireflies-vs-cleanshot</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/screen-studio-vs-convertkit</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/screen-studio-vs-beehiiv</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/screen-studio-vs-da-vinci-resolve</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/screen-studio-vs-cleanshot</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/screen-studio-vs-capcut</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/raycast-vs-arc-browser</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/raycast-vs-readwise</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/raycast-vs-tally</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/raycast-vs-typeform</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/raycast-vs-bitwarden</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/raycast-vs-1password</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/raycast-vs-dropbox</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/raycast-vs-cleanshot</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/arc-browser-vs-readwise</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/arc-browser-vs-tally</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/arc-browser-vs-typeform</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/arc-browser-vs-bitwarden</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/arc-browser-vs-1password</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/arc-browser-vs-dropbox</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/arc-browser-vs-cleanshot</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://toolcompare.fyi/compare/tana-vs-readwise</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/readwise-vs-tally</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/readwise-vs-typeform</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/readwise-vs-bitwarden</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/readwise-vs-1password</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/readwise-vs-dropbox</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/readwise-vs-cleanshot</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/webflow-vs-framer</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/convertkit-vs-beehiiv</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/convertkit-vs-da-vinci-resolve</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/convertkit-vs-capcut</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/beehiiv-vs-da-vinci-resolve</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/beehiiv-vs-capcut</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/posthog-vs-plausible</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/posthog-vs-bitwarden</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/posthog-vs-fathom</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/plausible-vs-bitwarden</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/plausible-vs-fathom</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/tally-vs-typeform</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/tally-vs-bitwarden</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/tally-vs-1password</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/tally-vs-dropbox</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/tally-vs-cleanshot</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/typeform-vs-bitwarden</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/typeform-vs-1password</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/typeform-vs-dropbox</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/typeform-vs-cleanshot</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/bitwarden-vs-1password</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/bitwarden-vs-dropbox</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/bitwarden-vs-cleanshot</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/1password-vs-dropbox</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/1password-vs-cleanshot</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/da-vinci-resolve-vs-capcut</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://toolcompare.fyi/compare/dropbox-vs-cleanshot</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>

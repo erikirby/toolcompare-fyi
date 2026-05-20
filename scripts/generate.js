@@ -65,7 +65,9 @@ function getCategoryForSlug(slug) {
   return map[slug] || { name: slug.replace(/-/g, ' '), desc: '' };
 }
 
-function htmlWrap(title, content, description = '') {
+function htmlWrap(title, content, description = '', schema = '') {
+  const ogTitle = title.replace(/"/g, '&quot;');
+  const ogDesc = (description || title).replace(/"/g, '&quot;');
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -73,7 +75,14 @@ function htmlWrap(title, content, description = '') {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${title} — ${SITE_NAME}</title>
   <meta name="description" content="${description || title}">
-  <link rel="canonical" href="${SITE_URL}">
+  <meta property="og:title" content="${ogTitle}">
+  <meta property="og:description" content="${ogDesc}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="${SITE_URL}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${ogTitle}">
+  <meta name="twitter:description" content="${ogDesc}">
+  <link rel="canonical" href="${SITE_URL}">${schema ? `\n  <script type="application/ld+json">${schema}</script>` : ''}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
@@ -181,6 +190,14 @@ function buildHome() {
     return `<a href="/tool/${p.id}" class="card"><div class="rating">${'★'.repeat(Math.floor(p.rating))}${p.rating % 1 >= 0.5 ? '½' : ''}</div><h3>${p.name}</h3><div class="price">${p.pricing}</div><p style="font-size:13px;color:#666;margin-top:8px">${p.description.substring(0, 100)}...</p></a>`;
   }).join('');
 
+  const siteSchema = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": SITE_NAME,
+    "description": SITE_DESC,
+    "url": SITE_URL
+  });
+
   return htmlWrap('Best Tools for Freelancers & Small Teams', `
     <div class="hero">
       <div class="container">
@@ -195,7 +212,7 @@ function buildHome() {
       <div class="card-grid">${catCards}</div>
       <div class="affiliate-notice">Some links on this site are affiliate links. If you purchase through these links, we earn a commission at no extra cost to you. We only recommend tools we genuinely believe provide value.</div>
     </div>
-  `, SITE_DESC);
+  `, SITE_DESC, siteSchema);
 }
 
 function buildToolReview(product) {
@@ -210,6 +227,29 @@ function buildToolReview(product) {
   const affBtn = product.hasAffiliate && product.affiliateUrl
     ? `<a href="${product.affiliateUrl}" class="btn" rel="nofollow sponsored">Visit ${product.name} →</a>`
     : '';
+
+  const productSchema = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": product.name,
+    "description": product.description,
+    "offers": {
+      "@type": "Offer",
+      "price": product.pricing,
+      "priceCurrency": "USD"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": product.rating,
+      "bestRating": 5,
+      "ratingCount": 1
+    },
+    "review": {
+      "@type": "Review",
+      "reviewBody": (product.pros || []).join('. '),
+      "author": { "@type": "Person", "name": "ToolCompare.fyi" }
+    }
+  });
 
   return htmlWrap(`${product.name} Review: Pricing, Features, Pros & Cons`, `
     <div class="container">
@@ -234,7 +274,7 @@ function buildToolReview(product) {
       ${cmpLinks ? `<h2>Compare with Alternatives</h2><p>See how ${product.name} stacks up against: ${cmpLinks}</p>` : ''}
       <div class="affiliate-notice">We may earn a commission if you purchase through links on this page. Our reviews are independent and based on real use.</div>
     </div>
-  `, `${product.name} review — pricing from ${product.pricing}, features, pros and cons. Best for ${(product.bestFor || []).join(', ')}.`);
+  `, `${product.name} review — pricing from ${product.pricing}, features, pros and cons. Best for ${(product.bestFor || []).join(', ')}.`, productSchema);
 }
 
 function buildComparisonPage(productA, productB) {
@@ -249,6 +289,37 @@ function buildComparisonPage(productA, productB) {
     const features = (p.keyFeatures || []).map(f => `<li>${f}</li>`).join('');
     return `<div style="flex:1"><h3>${p.name}</h3><table class="meta-table"><tr><td>Pricing</td><td>${p.pricing}</td></tr><tr><td>Rating</td><td>${'★'.repeat(Math.floor(p.rating))}${p.rating % 1 >= 0.5 ? '½' : ''} ${p.rating}/5</td></tr></table><h4>Key Features</h4><ul>${features}</ul><h4>Pros</h4><ul>${prosList}</ul><h4>Cons</h4><ul>${consList}</ul>${p.hasAffiliate && p.affiliateUrl ? `<a href="${p.affiliateUrl}" class="btn" style="margin-top:12px" rel="nofollow sponsored">Try ${p.name} →</a>` : ''}</div>`;
   };
+
+  const faqSchema = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": `Which is better, ${a.name} or ${b.name}?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `Choose ${a.name} if you need ${(a.bestFor || ['flexibility']).slice(0,2).join(' or ')}. Choose ${b.name} if you prioritize ${(b.bestFor || ['simplicity']).slice(0,2).join(' or ')}.`
+        }
+      },
+      {
+        "@type": "Question",
+        "name": `How does ${a.name} pricing compare to ${b.name}?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `${a.name} costs ${a.pricing}. ${b.name} costs ${b.pricing}.`
+        }
+      },
+      {
+        "@type": "Question",
+        "name": `What are the main differences between ${a.name} and ${b.name}?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `${a.name} is best for ${(a.bestFor || []).join(', ')}. ${b.name} is best for ${(b.bestFor || []).join(', ')}. ${a.name} has a rating of ${a.rating}/5, while ${b.name} has a rating of ${b.rating}/5.`
+        }
+      }
+    ]
+  });
 
   return htmlWrap(title, `
     <div class="container">
@@ -268,7 +339,7 @@ function buildComparisonPage(productA, productB) {
       </ul>
       <div class="affiliate-notice">We may earn a commission if you purchase through links. All opinions are our own.</div>
     </div>
-  `, title);
+  `, title, faqSchema);
 }
 
 function buildCategoryPage(catSlug) {
