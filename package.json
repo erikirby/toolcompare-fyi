@@ -1,0 +1,9 @@
+{
+  "name": "toolcompare-fyi",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/generate.js",
+    "deploy": "npx vercel --prod"
+  }
+}
