@@ -56,6 +56,11 @@ function getCategoryForSlug(slug) {
     'fintech': { name: 'Payments & Fintech', desc: 'Payment infrastructure for your business.' },
     'team-chat': { name: 'Team Chat', desc: 'Real-time messaging for productive teams.' },
     'wiki': { name: 'Team Wikis', desc: 'Collaborative wikis and documentation for teams.' },
+    'analytics': { name: 'Analytics', desc: 'Understand your traffic and user behavior with analytics tools.' },
+    'email-marketing': { name: 'Email Marketing', desc: 'Build and nurture your audience with email marketing platforms.' },
+    'file-sharing': { name: 'File Sharing', desc: 'Share files securely with clients and teams.' },
+    'forms': { name: 'Forms & Surveys', desc: 'Create beautiful forms and surveys that people actually fill out.' },
+    'video': { name: 'Video Editing', desc: 'Edit professional videos from quick social clips to full productions.' },
   };
   return map[slug] || { name: slug.replace(/-/g, ' '), desc: '' };
 }

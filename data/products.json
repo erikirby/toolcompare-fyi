@@ -943,5 +943,410 @@
     "keyFeatures": ["Highlight aggregation from 50+ sources (Kindle, Twitter, web, newsletters, PDFs)", "Spaced repetition review for long-term retention of key insights", "Export integration with Obsidian, Notion, Roam, and other note-taking tools", "Reader app for read-later, annotation, and PDF/EPUB reading", "Ghostreader AI for inline summaries, explanations, and analysis", "Daily email digest for passive review of recent highlights"],
     "rating": 4.5,
     "useCases": ["Building a permanent digital library of highlights and insights from everything you read", "Retaining key ideas from books and articles through spaced repetition review", "Research synthesis with exports to Obsidian or Notion for connecting ideas"]
+  },
+  {
+    "id": "webflow",
+    "name": "Webflow",
+    "category": ["hosting", "design", "no-code"],
+    "description": "Webflow is the no-code website builder that doesn't look like one. Unlike Squarespace or Wix where everything feels templated, Webflow gives you granular control over layout, animation, and interactions — all without writing code. It's the go-to for designers who want to build custom websites without relying on a developer, and the CMS is powerful enough for production sites.",
+    "pricing": "Free / $14/mo Basic / $23/mo CMS",
+    "hasAffiliate": true,
+    "affiliateUrl": "https://webflow.com/affiliates",
+    "bestFor": ["designers", "freelancers", "agencies"],
+    "pros": [
+      "Visual design control is unmatched — you can build custom, responsive layouts without touching CSS",
+      "Animations and interactions are surprisingly powerful; scroll-triggered effects, parallax, and micro-interactions built visually",
+      "CMS handles blogs, portfolios, and dynamic content well; client-friendly editor for non-technical users",
+      "Hosting is fast with built-in CDN, SSL, and global edge delivery",
+      "The Designer is genuinely impressive — it's like using Figma but it produces real, deployable HTML/CSS"
+    ],
+    "cons": [
+      "Learning curve is steep for a no-code tool; the Designer has a lot of concepts to absorb",
+      "Exporting code is limited on free and Basic plans; you need a paid plan to download your site",
+      "Cost adds up: CMS plan ($23/mo) is where serious sites start, and Business is $39/mo",
+      "E-commerce features are functional but not competitive with Shopify for serious stores",
+      "Lock-in concern — migrating off Webflow to another platform means rebuilding from scratch"
+    ],
+    "keyFeatures": ["Visual website builder with CSS-level design control", "CMS for dynamic content, blogs, and collections", "Interaction triggers for scroll-based animations and micro-interactions", "Built-in hosting with CDN, SSL, and global edge delivery", "Client editor for non-technical content updates", "E-commerce functionality for online stores"],
+    "rating": 4.5,
+    "useCases": ["Building custom portfolio and agency websites without a developer", "Creating marketing landing pages with advanced animations and interactions", "Client website delivery with a CMS they can maintain themselves"]
+  },
+  {
+    "id": "framer",
+    "name": "Framer",
+    "category": ["hosting", "design", "no-code"],
+    "description": "Framer started as a prototyping tool and transformed into a website builder that's giving Webflow a run for its money. It's particularly strong for marketing sites and landing pages where design polish matters. The component-based approach is intuitive if you have any design background, and the built-in CMS covers the basics. Not as deep as Webflow, but much faster to get started.",
+    "pricing": "Free / $15/mo Mini / $25/mo Basic",
+    "hasAffiliate": true,
+    "affiliateUrl": "https://www.framer.com/affiliates/",
+    "bestFor": ["designers", "freelancers", "marketers"],
+    "pros": [
+      "Incredibly intuitive for designers — if you know Figma, you'll feel at home immediately",
+      "Pre-built components and templates are genuinely beautiful; better out-of-the-box than Webflow's templates",
+      "CMS is simpler than Webflow's but covers blogs, portfolios, and dynamic pages well",
+      "Hosting is fast with automatic optimization, CDN, and SSL included",
+      "Translation/localization features are built-in, which saves a lot of pain for multi-language sites"
+    ],
+    "cons": [
+      "Less design flexibility than Webflow — you'll hit walls with complex layouts or custom interactions",
+      "CMS is functional but limited for content-heavy sites; no advanced filtering, sorting, or relational data",
+      "Ecosystem (templates, plugins, integrations) is smaller than Webflow's",
+      "Export options are limited; you're committing to Framer as a platform",
+      "The free plan puts a Framer badge on your site, which looks unprofessional for client work"
+    ],
+    "keyFeatures": ["Visual website builder with Figma-like interface", "Pre-built components and templates for fast design", "Built-in CMS for blogs and dynamic content", "Automatic hosting with CDN and optimization", "Built-in localization and translation for multi-language sites", "E-commerce support for basic online stores"],
+    "rating": 4.3,
+    "useCases": ["Building beautiful marketing sites and landing pages fast", "Designer-friendly freelance website creation without development skills", "Multi-language website projects with built-in translation support"]
+  },
+  {
+    "id": "convertkit",
+    "name": "ConvertKit",
+    "category": ["email-marketing", "content-creation"],
+    "description": "ConvertKit is the email marketing platform built specifically for creators. Unlike Mailchimp which tries to be everything for everyone, ConvertKit focuses on what creators need: landing pages, email sequences, tags, and subscriber management that actually makes sense. It's not the cheapest option, but the simplicity and creator-focused features justify the premium for many.",
+    "pricing": "Free / $29/mo Creator / $59/mo Creator Pro",
+    "hasAffiliate": true,
+    "affiliateUrl": "https://convertkit.com/affiliates",
+    "bestFor": ["creators", "writers", "course-builders"],
+    "pros": [
+      "Tag-based subscriber management is intuitive and powerful; segment your audience without complex automations",
+      "Landing page builder is simple but effective; you can go from zero to a signup page in minutes",
+      "Email sequences are straightforward to set up and ConvertKit handles timing, tagging, and analytics",
+      "Creator Network feature helps grow your audience by cross-promoting with other creators",
+      "Integrates with all the tools creators use (Gumroad, Teachable, WordPress, Zapier)"
+    ],
+    "cons": [
+      "Expensive — $29/mo for the Creator plan jumps quickly from the free tier's 1,000 subscribers",
+      "Email editing is basic; the visual editor is serviceable but not as flexible as Mailchimp or ActiveCampaign",
+      "No built-in CRM features; it's purely email marketing, not a full marketing platform",
+      "Automation capabilities are limited compared to dedicated marketing automation tools",
+      "Template library is minimal; you'll need to design your own emails or use a third-party template"
+    ],
+    "keyFeatures": ["Tag-based subscriber management and segmentation", "Landing page and signup form builder", "Email sequences for automated drip campaigns", "Creator Network for cross-promotion with other creators", "Digital product sales and delivery built-in", "Subscriber scoring and engagement tracking"],
+    "rating": 4.4,
+    "useCases": ["Building and monetizing an email newsletter audience", "Selling digital products with automated delivery sequences", "Creator audience growth with landing pages and lead magnets"]
+  },
+  {
+    "id": "beehiiv",
+    "name": "Beehiiv",
+    "category": ["email-marketing", "publishing", "content-creation"],
+    "description": "Beehiiv is the newsletter platform that turned the Substack model on its head by giving creators way more tools — a built-in website, ad network, referral program, and reCOMMENDED algorithm for discovery. It's eating Substack's lunch by offering everything Substack does plus actual growth features. If you're starting a newsletter in 2025, Beehiiv is the default choice.",
+    "pricing": "Free / $42/mo Grow / $84/mo Scale",
+    "hasAffiliate": true,
+    "affiliateUrl": "https://beehiiv.com/affiliates/",
+    "bestFor": ["writers", "newsletter-creators", "publishers"],
+    "pros": [
+      "Boom (referral program) turns your subscribers into growth engines by gamifying sharing",
+      "Built-in ad network lets you monetize without chasing sponsors yourself",
+      "Recommendation algorithm (like Substack's but better) helps new readers discover your newsletter",
+      "Website builder turns your newsletter into a full publication site, not just an email",
+      "Analytics are comprehensive — open rates, click rates, growth sources, and revenue breakdowns"
+    ],
+    "cons": [
+      "Gets expensive fast — the Grow plan ($42/mo) is where most useful features live",
+      "Free tier limits you to 2,500 subscribers and lacks core features like custom domains and advanced analytics",
+      "The platform has changed pricing multiple times, which creates trust concerns for long-term planning",
+      "Editor is functional but not as polished as ConvertKit's or Substack's writing experience",
+      "Migration tools from other platforms are basic; don't expect a seamless transition from Substack"
+    ],
+    "keyFeatures": ["Newsletter publishing with built-in website and RSS", "Boom referral program for subscriber-driven growth", "Ad network for newsletter monetization", "Recommendation algorithm for newsletter discovery", "Advanced analytics including growth sources and revenue attribution", "Segmentation and automated email sequences"],
+    "rating": 4.3,
+    "useCases": ["Starting and growing a newsletter with built-in discovery tools", "Monetizing a publication through ads, subscriptions, and referrals", "Building a media business with both email and web presence"]
+  },
+  {
+    "id": "posthog",
+    "name": "PostHog",
+    "category": ["analytics", "development", "open-source"],
+    "description": "PostHog is the open-source product analytics platform that's eating Mixpanel's lunch. It gives you event tracking, session recording, feature flags, A/B testing, and heatmaps in one self-hostable or cloud package. The killer feature is session replay — you can literally watch how users interact with your product. And because it's open-source, you own your data.",
+    "pricing": "Free self-hosted / Free cloud (1M events/mo) / $0.00025 per event after",
+    "hasAffiliate": false,
+    "affiliateUrl": "",
+    "bestFor": ["developers", "product-teams", "startups"],
+    "pros": [
+      "Session replay is incredibly useful for understanding user behavior — you see exactly what users do, not just what they click",
+      "Feature flags with A/B testing are built in, so you don't need LaunchDarkly separately",
+      "Self-hosted option means zero data leaving your infrastructure; GDPR compliance is straightforward",
+      "Free tier (1M events/month on cloud) is generous enough for early-stage products",
+      "The product is built by developers for developers; the API and integration docs are excellent"
+    ],
+    "cons": [
+      "Self-hosting requires significant infrastructure (PostgreSQL, Redis, ClickHouse, lots of RAM)",
+      "Session replay data can get expensive at scale; cloud pricing climbs quickly with event volume",
+      "Dashboards are powerful but have a learning curve; not as intuitive as Google Analytics for basic reporting",
+      "Some features (experiment results, correlation analysis) are still maturing",
+      "Smaller community than Google Analytics or Mixpanel means fewer shared templates and plugins"
+    ],
+    "keyFeatures": ["Event-based product analytics with autocapture", "Session recording and replay for user behavior analysis", "Feature flags with gradual rollout and A/B testing", "Heatmaps and click maps for UI analysis", "Funnels, trends, and retention analysis", "Self-hostable open-source deployment option"],
+    "rating": 4.5,
+    "useCases": ["Product analytics for SaaS products with session replay and behavior tracking", "A/B testing and feature flag management in a single platform", "Privacy-compliant analytics with self-hosted data ownership"]
+  },
+  {
+    "id": "plausible",
+    "name": "Plausible",
+    "category": ["analytics", "open-source"],
+    "description": "Plausible is the lightweight, privacy-first Google Analytics alternative that gives you the metrics you actually need without the complexity. No cookie banners, no GDPR headaches, no dashboard full of vanity metrics you never look at. It's popular with indie hackers and small businesses who want to know how many people visit their site and where they come from — and nothing more.",
+    "pricing": "$9/mo (10K pageviews) / $19/mo (100K)",
+    "hasAffiliate": false,
+    "affiliateUrl": "",
+    "bestFor": ["indie-hackers", "solo-devs", "small-sites"],
+    "pros": [
+      "Simplest analytics dashboard you'll ever use — unique visitors, pageviews, referrers, pages, countries. Done.",
+      "GDPR, CCPA, and PECR compliant out of the box; no cookie banner required",
+      "Lightweight script (under 1KB) that doesn't slow down your site",
+      "Self-hostable option for complete data ownership",
+      "Real-time analytics actually work and are useful, not just a novelty"
+    ],
+    "cons": [
+      "Feature set is deliberately minimal — don't expect event tracking, funnels, or session recording",
+      "Pricing in tiers (10K, 100K, 1M pageviews) means unexpected traffic spikes can cost you",
+      "No mobile SDK for app analytics; it's purely for websites",
+      "Self-hosting requires a server and basic DevOps skills",
+      "The simplicity is a feature, but power users will miss Google Analytics' depth"
+    ],
+    "keyFeatures": ["Privacy-first web analytics without cookies", "Real-time visitor dashboard with key metrics", "Lightweight tracking script (under 1KB)", "Campaign URL tracking and goal conversion tracking", "Email reports and API access", "Self-hostable open-source option"],
+    "rating": 4.6,
+    "useCases": ["Privacy-compliant website analytics without cookie banners", "Indie project and side project analytics with zero configuration", "Client reporting with a clean, simple dashboard they can understand"]
+  },
+  {
+    "id": "tally",
+    "name": "Tally",
+    "category": ["forms", "productivity"],
+    "description": "Tally is the form builder that looks like a document. Instead of the clunky drag-and-drop builders that produce obviously templated forms, Tally lets you write your form like you're writing a page — with real text, headings, and dividers between form fields. It's a small idea that makes a huge difference in how professional your forms look. And the free tier is genuinely generous.",
+    "pricing": "Free / $29/mo Pro",
+    "hasAffiliate": false,
+    "affiliateUrl": "",
+    "bestFor": ["freelancers", "small-teams", "everyone"],
+    "pros": [
+      "Forms look like real documents, not templates; the design is clean and professional by default",
+      "Free tier is seriously generous — unlimited forms, unlimited responses, no watermark",
+      "Logic jumps and conditional fields work well for complex forms and surveys",
+      "Integrations with Notion, Slack, Google Sheets, and 500+ tools via Zapier/Make",
+      "You can embed forms anywhere or use Tally's hosted pages (which look great on mobile)"
+    ],
+    "cons": [
+      "Design customization is limited compared to Typeform or Jotform; you get Tally's look and that's it",
+      "No native payment collection built in; you'll need to embed Stripe or PayPal separately",
+      "File uploads on free tier are limited to 10MB; Pro bumps it to 100MB",
+      "No native analytics beyond basic response tracking",
+      "The Pro plan ($29/mo) is pricey for what is essentially a form builder"
+    ],
+    "keyFeatures": ["Document-style form builder with clean, professional design", "Conditional logic and branching for dynamic forms", "Unlimited forms and responses on free tier", "Embedding, popup, and link sharing options", "800+ integrations via Zapier, Make, and native connections", "Collaboration features for team form building"],
+    "rating": 4.4,
+    "useCases": ["Creating professional-looking contact forms and surveys", "Building client intake forms that don't feel like bureaucracy", "Collecting feedback and responses with a polished, branded experience"]
+  },
+  {
+    "id": "typeform",
+    "name": "Typeform",
+    "category": ["forms", "productivity"],
+    "description": "Typeform is the form builder that made one-question-at-a-time forms popular. It's the gold standard for surveys, quizzes, and any form where user experience matters — because let's be honest, most forms are terrible. Typeform makes filling out a form feel like having a conversation. The trade-off is cost: you pay a premium for that experience.",
+    "pricing": "Free / $25/mo Plus / $50/mo Business",
+    "hasAffiliate": true,
+    "affiliateUrl": "https://typeform.com/affiliates/",
+    "bestFor": ["marketers", "product-teams", "researchers"],
+    "pros": [
+      "One-question-at-a-time format dramatically improves completion rates compared to traditional forms",
+      "Design is beautiful out of the box — fonts, colors, and animations look polished with zero effort",
+      "Logic jumps and calculations handle complex survey flows and scoring",
+      "Templates for every use case (NPS surveys, feedback forms, quizzes, applications)",
+      "Integrations with HubSpot, Salesforce, Slack, Notion, and 500+ tools"
+    ],
+    "cons": [
+      "Expensive — the Plus plan ($25/mo) is the minimum for removing Typeform branding",
+      "Free tier is very limited: 10 responses/month, 3 form questions max",
+      "Long forms with many questions feel tedious one at a time; it's best for short interactions",
+      "Mobile experience is good but not as polished as desktop",
+      "Response data export and analysis tools are basic; you'll want a spreadsheet or dedicated analytics"
+    ],
+    "keyFeatures": ["One-question-at-a-time conversational form format", "Beautiful design with customizable themes and branding", "Conditional logic and calculations for complex flows", "Quizzes with scoring and result pages", "Templates for surveys, forms, quizzes, and applications", "Integrations with CRM, marketing, and productivity tools"],
+    "rating": 4.3,
+    "useCases": ["Customer satisfaction and NPS surveys with high completion rates", "Lead generation forms that convert better than traditional forms", "Quizzes and assessments with scoring and result routing"]
+  },
+  {
+    "id": "bitwarden",
+    "name": "Bitwarden",
+    "category": ["productivity", "open-source"],
+    "description": "Bitwarden is the open-source password manager that's become the default recommendation for anyone who takes security seriously. It does everything 1Password and LastPass do — password generation, autofill, secure sharing, TOTP codes — but it's open-source, independently audited, and has a genuinely usable free tier. The self-hosting option is a bonus for the paranoid.",
+    "pricing": "Free / $10/yr Premium / $3/mo Families",
+    "hasAffiliate": true,
+    "affiliateUrl": "https://bitwarden.com/affiliates/",
+    "bestFor": ["everyone", "developers", "security-minded-users"],
+    "pros": [
+      "Free tier is genuinely unlimited — unlimited passwords, unlimited devices, unlimited sharing with 2 users",
+      "Open-source with regular independent security audits; you can inspect the code yourself",
+      "Self-hosting option for complete control over your password data",
+      "Works on every platform — Windows, Mac, Linux, iOS, Android, and all browsers via extension",
+      "Premium is only $10/year and adds TOTP codes, secure file attachments, and emergency access"
+    ],
+    "cons": [
+      "UI is functional but not as polished as 1Password; the mobile apps in particular feel a bit rough",
+      "Browser autofill works well but occasionally misfills on complex multi-field forms",
+      "Self-hosting requires a server (even a $5/mo VPS works) and basic sysadmin knowledge",
+      "Import from other password managers works but can be fiddly with format issues",
+      "Customer support is community-driven (forums, GitHub) rather than dedicated support"
+    ],
+    "keyFeatures": ["Open-source password manager with end-to-end encryption", "Cross-platform apps (desktop, mobile, browser extensions)", "Password generator, autofill, and secure sharing", "TOTP authenticator codes built into Premium", "Self-hostable option via Docker or VPS", "Emergency access and password health reporting"],
+    "rating": 4.7,
+    "useCases": ["Personal password management with zero cost and maximum security", "Family password sharing with the Families plan ($3/mo)", "Self-hosted password management for organizations with compliance requirements"]
+  },
+  {
+    "id": "1password",
+    "name": "1Password",
+    "category": ["productivity"],
+    "description": "1Password is the password manager that feels like a native Mac app — polished, thoughtfully designed, and a pleasure to use. It's not open-source like Bitwarden, but it compensates with a better user experience, excellent family sharing features, and integrations that just work. If you're willing to pay for a premium experience, 1Password is the gold standard.",
+    "pricing": "$2.99/mo Individual / $4.99/mo Families / $7.99/mo Business",
+    "hasAffiliate": true,
+    "affiliateUrl": "https://1password.com/affiliates/",
+    "bestFor": ["families", "teams", "designers", "mac-users"],
+    "pros": [
+      "User experience is best-in-class; the apps are beautifully designed and a pleasure to use on every platform",
+      "Watchtower security dashboard alerts you to compromised passwords, weak passwords, and two-factor issues",
+      "Family sharing is excellent — shared vaults for household logins without exposing personal passwords",
+      "Travel Mode lets you remove sensitive vaults from your devices when crossing borders",
+      "Desktop app works offline and syncs when connected, so you're never locked out"
+    ],
+    "cons": [
+      "Subscription-only — no lifetime license option; you pay $2.99/mo forever or lose access",
+      "Not open-source, which is a dealbreaker for some security-conscious users",
+      "Browser extension quality varies between browsers; the Chrome extension is best, others lag",
+      "Windows app is good but clearly gets less attention than the Mac version",
+      "Business tier pricing ($7.99/seat/mo) is expensive compared to alternatives"
+    ],
+    "keyFeatures": ["Cross-platform password manager with polished UX", "Family vaults for shared household passwords", "Travel Mode for removing vaults at borders", "Watchtower security monitoring and alerts", "SSO and provisioning for business deployments", "Virtual payment cards (US only) for online purchases"],
+    "rating": 4.6,
+    "useCases": ["Family password management with shared vaults and separate private spaces", "Team password sharing with granular permissions and audit logs", "Personal password security with the most polished UX available"]
+  },
+  {
+    "id": "da-vinci-resolve",
+    "name": "DaVinci Resolve",
+    "category": ["video", "content-creation"],
+    "description": "DaVinci Resolve is the professional video editing software that's free for the vast majority of users. It's the same tool Hollywood uses for color grading, and the free version is so capable that many YouTubers and indie creators never need to upgrade. The learning curve is real — this is not iMovie — but the power is unmatched at any price, let alone free.",
+    "pricing": "Free / $295 one-time Studio",
+    "hasAffiliate": false,
+    "affiliateUrl": "",
+    "bestFor": ["video-creators", "youtubers", "professionals"],
+    "pros": [
+      "Free version is absurdly capable — 4K export, unlimited tracks, professional color grading, Fairlight audio tools",
+      "Color grading tools are the industry standard; the power you get for free is genuinely ridiculous",
+      "Fusion (visual effects) and Fairlight (audio) are built-in; you don't need After Effects or Audition separately",
+      "Studio version ($295 one-time) is a bargain compared to monthly subscriptions for Premiere Pro",
+      "Performance on Apple Silicon is excellent; optimized for M-series chips"
+    ],
+    "cons": [
+      "Learning curve is steep — expect weeks before you're comfortable, months before you're fast",
+      "Free version has some limitations: no noise reduction, no 10-bit color (for many formats), no HDR",
+      "Interface is dense and can feel overwhelming compared to Final Cut or Premiere",
+      "Not great for quick edits; the startup time and project setup are overkill for a 2-minute social clip",
+      "Community and tutorials are growing but still smaller than Premiere Pro's ecosystem"
+    ],
+    "keyFeatures": ["Professional video editing with timeline-based workflow", "Industry-standard color grading with HDR support", "Fusion visual effects and motion graphics compositor", "Fairlight audio production with multi-track mixing", "Multi-user collaboration for team post-production", "Free tier with 4K export and professional features"],
+    "rating": 4.7,
+    "useCases": ["Professional video editing and color grading on a budget", "YouTube and content creation with Hollywood-grade tools", "Post-production workflow for indie filmmakers and video professionals"]
+  },
+  {
+    "id": "dropbox",
+    "name": "Dropbox",
+    "category": ["file-sharing", "productivity", "collaboration"],
+    "description": "Dropbox is the file sync and sharing service that defined the category. It's been around long enough that it's easy to dismiss, but the core product — files that sync across devices seamlessly — still works better than most competitors. Recent additions like Dropbox Dash (universal search), Capture (screen recording), and Replay (video review) show it's trying to evolve beyond just file storage.",
+    "pricing": "Free / $9.99/mo Plus / $16.99/mo Family",
+    "hasAffiliate": true,
+    "affiliateUrl": "https://www.dropbox.com/affiliates",
+    "bestFor": ["freelancers", "small-teams", "everyone"],
+    "pros": [
+      "Sync is still best-in-class — files appear on all your devices quickly and reliably",
+      "File versioning and recovery works well; you can restore deleted files for 30 days (180 on Plus)",
+      "Smart Sync lets you see all your files without downloading them; saves local storage space",
+      "Dropbox Transfer for sending large files (up to 100GB on Plus) with expiration dates and passwords",
+      "Paper (built-in docs) is surprisingly good for lightweight collaborative documents"
+    ],
+    "cons": [
+      "Expensive for what it is — $9.99/mo for 2TB when Google Drive gives you the same for less",
+      "Recent redesigns have made the desktop app slower and more bloated than it used to be",
+      "The free tier is very limited (2GB); you'll run out of space almost immediately with any real use",
+      "No built-in office suite; you still need Google Docs or Microsoft 365 for document editing",
+      "The push into AI and dash tools feels like feature creep; the core sync experience has suffered"
+    ],
+    "keyFeatures": ["Cross-platform file sync and cloud storage", "Smart Sync for on-demand file access without local storage", "File sharing with link controls (passwords, expiration dates)", "Dropbox Transfer for large file delivery", "Paper collaborative documents", "Dropbox Capture for async screen recordings"],
+    "rating": 4.2,
+    "useCases": ["File sync across multiple computers and devices", "Client file sharing with controlled access and expiry", "Team file collaboration with version history and recovery"]
+  },
+  {
+    "id": "cleanshot",
+    "name": "CleanShot X",
+    "category": ["screencasting", "productivity"],
+    "description": "CleanShot X is the screenshot tool that Mac power users swear by. It replaces the built-in screenshot tool with a vastly superior experience: scrolling captures, OCR text extraction, annotation tools, cloud upload with shareable links, and a history window that stores everything you've captured. It's one of those tools that seems overpriced ($29 one-time) until you use it for a day and wonder how you lived without it.",
+    "pricing": "$29 one-time (Mac only)",
+    "hasAffiliate": false,
+    "affiliateUrl": "",
+    "bestFor": ["developers", "designers", "everyone"],
+    "pros": [
+      "Scrolling screenshot capture is flawless — captures entire web pages, docs, or conversations in one shot",
+      "Annotation tools are excellent; arrows, text, blur, and highlights that look professional with no effort",
+      "OCR text extraction from screenshots is surprisingly fast and accurate",
+      "Cloud upload generates a shareable link instantly; saves the hassle of uploading to Imgur elsewhere",
+      "History window keeps a searchable archive of every screenshot you've ever taken"
+    ],
+    "cons": [
+      "Mac only — Windows and Linux users need to look elsewhere (ShareX on Windows is a good alternative)",
+      "The video recording features, while useful, are basic compared to dedicated tools like Screen Studio",
+      "Some features (cloud upload, custom domains) require a paid subscription after the initial purchase",
+      "The floating capture menu can occasionally get in the way on smaller screens",
+      "No Linux version and no clear plans for one"
+    ],
+    "keyFeatures": ["Advanced screenshot capture with scrolling, window, and region modes", "Built-in annotation and markup tools", "OCR text extraction from screenshots", "Cloud upload with instant shareable links", "Screen recording with optional cursor highlighting", "History window with searchable screenshot archive"],
+    "rating": 4.6,
+    "useCases": ["Everyday screenshot capture with annotations for bug reports and documentation", "Scrolling web page capture for full-page screenshots", "Quick screen recordings for async communication and tutorials"]
+  },
+  {
+    "id": "capcut",
+    "name": "CapCut",
+    "category": ["video", "content-creation"],
+    "description": "CapCut is ByteDance's video editing app that's become the default for short-form content creators. It's free, it runs on basically any device, and it has the AI features (auto-captions, text-to-speech, background removal) that TikTok and Reels creators need. The trade-off is that it's owned by the same company as TikTok, which raises privacy questions for some.",
+    "pricing": "Free / $7.99/mo Pro",
+    "hasAffiliate": false,
+    "affiliateUrl": "",
+    "bestFor": ["content-creators", "social-media-managers", "editors"],
+    "pros": [
+      "Free version is incredibly capable — no watermark, no significant feature gates, no time limits",
+      "AI auto-captions are fast and accurate; essential for silent-viewing social video",
+      "Text-to-speech with multiple natural-sounding voices is built in and free",
+      "Works on mobile and desktop with project sync between devices",
+      "Templates and effects library is massive and updated frequently with trending styles"
+    ],
+    "cons": [
+      "Privacy concerns due to ByteDance ownership; data handling policies are a concern for some users",
+      "Desktop version is less polished than the mobile app; the UI feels like a mobile port",
+      "Advanced editing features (multi-cam, color grading) are basic compared to DaVinci or Premiere",
+      "Export quality on free tier is capped at 1080p; 4K requires Pro",
+      "The Pro subscription auto-renews at $7.99/mo and is required for commercial use license"
+    ],
+    "keyFeatures": ["Free video editor with no watermark on free tier", "AI auto-captions and speech-to-text", "Text-to-speech with multiple voice options", "Background removal and green screen", "Trending templates and effects library", "Cross-device project syncing"],
+    "rating": 4.3,
+    "useCases": ["Short-form social media video creation for TikTok, Reels, and Shorts", "Automatic captioning for accessibility and silent-viewing content", "Quick video editing on mobile without transferring to desktop"]
+  },
+  {
+    "id": "fathom",
+    "name": "Fathom Analytics",
+    "category": ["analytics"],
+    "description": "Fathom is the privacy-first analytics platform that doesn't compromise on features. Unlike Plausible (which is intentionally minimal), Fathom gives you event tracking, goals, funnels, and campaign analytics — all without cookies or personal data collection. It's more expensive than Plausible but more feature-rich, making it the middle ground between simple analytics and Google Analytics' complexity.",
+    "pricing": "$14/mo (100K pageviews) / custom enterprise",
+    "hasAffiliate": false,
+    "affiliateUrl": "",
+    "bestFor": ["small-businesses", "saas-products", "agencies"],
+    "pros": [
+      "Event tracking and goals work without cookies; you get conversion data without annoying cookie banners",
+      "Funnels are genuinely useful for understanding drop-off points in signup flows and checkout sequences",
+      "Campaign tracking with UTM parameter auto-detection works well",
+      "GDPR, CCPA, and PECR compliant out of the box — no legal gray areas",
+      "Custom dashboards and white-label reporting for agencies serving clients"
+    ],
+    "cons": [
+      "More expensive than Plausible ($14/mo for 100K pageviews vs Plausible's $9/mo for 10K)",
+      "Self-hosting is not an option; it's SaaS-only (unlike Plausible's self-host option)",
+      "Smaller community and fewer third-party integrations than Google Analytics",
+      "The dashboard, while clean, has less visual customization than some competitors",
+      "No A/B testing or session recording; it's purely aggregate analytics"
+    ],
+    "keyFeatures": ["Privacy-first web analytics without cookies", "Event tracking and goal conversion without personal data", "Funnel analysis for conversion optimization", "Campaign tracking with auto-detected UTM parameters", "Custom dashboards with white-label options", "GDPR and CCPA compliant without cookie consent banners"],
+    "rating": 4.5,
+    "useCases": ["Privacy-compliant analytics for SaaS products with conversion tracking", "Agency client reporting with white-label dashboards", "Small business analytics that respect visitor privacy and legal requirements"]
   }
 ]
